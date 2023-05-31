@@ -1,0 +1,45 @@
+<nav
+  style="
+    background-color: rgb(121, 121, 245);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    margin-bottom: 15px ;
+  "
+>
+  <img
+    style="width: 100px"
+    src="https://rewind.com/wp-content/uploads/2021/06/RWD_Why-Is-My-Shopify-Store-Not-Working_Blog_v1_Header.png"
+    alt="logo"
+  />
+  <ul
+    style="
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+      list-style-type: none;
+    "
+  >
+    <li>
+      <a
+        href="{% url 'home' %}"
+        style="text-decoration: none; color: blanchedalmond"
+        >Home</a
+      >
+    </li>
+    <li>
+      <a
+        href="{% url 'about' %}"
+        style="text-decoration: none; color: blanchedalmond"
+        >About</a
+      >
+    </li>
+    <li>
+      <a href="#" style="text-decoration: none; color: blanchedalmond"
+        >Contact us</a
+      >
+    </li>
+  </ul>
+</nav>
